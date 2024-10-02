@@ -24,7 +24,7 @@ menu_item.forEach((item) => {
 	});
 });
 // Download Resume Functionality
-function downloadImage() {
+/*function downloadImage() {
 	const imageLink = 'Internal storage/Pictures/Canva'; // Replace with the actual path to your image file
 	const link = document.createElement('a');
 	link.href = imageLink;
