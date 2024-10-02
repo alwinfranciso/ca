@@ -31,5 +31,3 @@ function downloadImage() {
 	link.download = 'resume.jpg'; // Set the filename
 	link.click();
 }
-/*const downloadButton = document.querySelector('.cta');
-downloadButton.addEventListener('click', downloadImage);
