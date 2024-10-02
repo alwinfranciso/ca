@@ -24,12 +24,12 @@ menu_item.forEach((item) => {
 	});
 });
 // Download Resume Functionality
-/*function downloadImage() {
+function downloadImage() {
 	const imageLink = 'Internal storage/Pictures/Canva'; // Replace with the actual path to your image file
 	const link = document.createElement('a');
 	link.href = imageLink;
 	link.download = 'resume.jpg'; // Set the filename
 	link.click();
 }
-const downloadButton = document.querySelector('.cta');
+/*const downloadButton = document.querySelector('.cta');
 downloadButton.addEventListener('click', downloadImage);
