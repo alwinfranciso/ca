@@ -1,4 +1,20 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+
+.round-icon {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  border-radius: 50%; /* This makes the element round */
+  overflow: hidden; /* Ensures the content fits within the round shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round-icon img {
+  width: 100%;
+  height: auto;
+}
+
 * {
 	padding: 0;
 	margin: 0;
