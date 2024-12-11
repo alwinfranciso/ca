@@ -28,6 +28,6 @@ function downloadImage() {
 	const imageLink = 'Internal storage/Pictures/Canva'; // Replace with the actual path to your image file
 	const link = document.createElement('a');
 	link.href = imageLink;
-	link.download = 'resume.jpg'; // Set the filename
+	link.download = 'alwin.png'; // Set the filename
 	link.click();
 }
